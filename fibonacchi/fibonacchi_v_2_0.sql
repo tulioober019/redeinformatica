@@ -22,7 +22,7 @@ BEGIN
 		WHILE (contador<=numero-3) DO
 			SET contador=contador+1;
 			SET a0=a1;
-   SET a1=a2;
+                        SET a1=a2;
 			SET a2=a0+a1;
 			/*IF (contador=numero-3) THEN 
 				RETURN a2;
