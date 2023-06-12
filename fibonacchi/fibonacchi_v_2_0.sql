@@ -24,9 +24,6 @@ BEGIN
 			SET a0=a1;
                         SET a1=a2;
 			SET a2=a0+a1;
-			/*IF (contador=numero-3) THEN 
-				RETURN a2;
-			END IF;*/
 		END WHILE;
 		RETURN a2;
 	END IF; 
